@@ -117,7 +117,7 @@ bool TrieNodeDelete(TrieNode *current, string target, int index)
         return false;
     }
 
-    for (auto x : current->children)
+    for (auto x : current->children) //Checking if any sub-node/children node is a valid node or not.
     {
         if (x != NULL)
         {
